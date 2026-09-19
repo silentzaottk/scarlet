@@ -22,15 +22,19 @@ Download official builds from [GitHub Releases](https://github.com/silentzaottk/
 - Optional Start with Windows
 - Automatic crash recovery and display conflict detection
 - Optional persistent look after the Scarlet window closes
+- Payhip purchase activation with encrypted local license storage
+- Optional current-preset memory when Scarlet closes
 - Update notifications that open the exact official GitHub release page
 
 ## Persistent colors
 
 The setting **Keep my active look after Scarlet closes** is enabled by default. Closing the window keeps an active look on through a sleeping Scarlet helper process. Reopen Scarlet to edit the look, or select **Pause** before closing to restore the original matrix and gamma ramps. Disabling the setting also restores the original colors on exit.
 
-## Updates and privacy
+## License, updates and privacy
 
-Scarlet checks this repository's public latest-release endpoint at most once every 24 hours when automatic checks are enabled. It sends no account token, device identifier, settings, presets, analytics, or telemetry. The app never downloads or executes an update itself; the update button opens the verified GitHub release page in your browser.
+Enter the key from your Payhip receipt on first launch. One license activates one Windows account. Scarlet sends that key directly to Payhip for activation and refund or revocation checks, stores the local record with Windows user encryption, rechecks at most daily, and allows up to seven days offline after a successful check. Deactivate from Settings before moving the license.
+
+Scarlet also checks this repository's public latest-release endpoint at most once every 24 hours when automatic checks are enabled. It sends no presets, display settings, analytics, or telemetry. The app never downloads or executes an update itself; the update button opens the verified GitHub release page in your browser.
 
 ## Display and game safety
 
